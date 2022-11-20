@@ -5,9 +5,9 @@ import NavBar from '../components/nav_bar'
 export const HomePage = () => {
   return (
     <div className='page'>
-      <h1 className='page__title'>Frontend Sample App</h1>
+      <h1 className='page__title'>Reunión en Progreso</h1>
       <NavBar />
-      <h2>Página de Inicio</h2>
+      <h2><center>Reuniones</center></h2>
     </div>
   )
 }
