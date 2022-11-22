@@ -1,15 +1,21 @@
-import React from 'react'
+import React, { Component} from 'react'
+import Cabecera from '../components/Cabecera'
+import Opciones from '../components/OpcionesReuniones'
 
 import NavBar from '../components/nav_bar'
 
-export const HomePage = () => {
-  return (
-    <div className='page'>
-      <h1 className='page__title'>Reunión en Progreso</h1>
-      <NavBar />
-      <h2><center>Reuniones</center></h2>
-    </div>
-  )
+
+class HomeReuniones extends Component {
+  render() {
+      return(
+        <div className='page'>
+        {/*<h1 className='page__title'>Reunión en Progreso</h1> */}
+        <Cabecera />
+        <NavBar />
+        <h2><center>Reuniones</center></h2>
+      </div>
+      );
+  }
 }
 
-export default HomePage
+export default HomeReuniones

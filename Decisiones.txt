@@ -1,0 +1,1 @@
+Decidimos que no existirá una pantalla de carga (Después de terminar reunión) -> Y se creará automáticamente :D (El boton descargar es clickeable pero no descargará nada)
