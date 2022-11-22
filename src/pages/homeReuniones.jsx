@@ -13,6 +13,7 @@ class HomeReuniones extends Component {
         <Cabecera />
         <NavBar />
         <h2><center>Reuniones</center></h2>
+        <Opciones />
       </div>
       );
   }
