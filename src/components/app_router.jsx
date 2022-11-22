@@ -1,8 +1,8 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
-import HomePage from '../pages/home'
-import InternalPage from '../pages/internal'
+import HomePage from '../pages/homeReuniones'
+import InternalPage from '../pages/actas'
 
 const AppRouter = () => {
   return (

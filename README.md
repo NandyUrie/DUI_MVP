@@ -31,8 +31,8 @@ Now you can open http://localhost:5050
 ### About stylesheets
 - Sample stylesheets were written using the [BEM](https://getbem.com/) structure
 
-Integrantes:
+##### Integrantes:
 
-Valentina Aróstica  |   Rol: 201811526-6
-Diego Rosales       |   Rol: 201810531-7
-Nandy Troncoso      |   Rol: 201973570-5
+- Valentina Aróstica  |   Rol: 201811526-6
+- Diego Rosales       |   Rol: 201810531-7
+- Nandy Troncoso      |   Rol: 201973570-5
