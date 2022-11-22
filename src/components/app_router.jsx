@@ -19,7 +19,7 @@ const AppRouter = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='/home' element={<HomePage />} />
+        <Route path='/' element={<HomePage />} />
         <Route path='/actas' element={<Actas />} />
         <Route path='/homeReuniones' element={<HomeReuniones />} />
         <Route path='/agenda' element={<Agenda />} />
