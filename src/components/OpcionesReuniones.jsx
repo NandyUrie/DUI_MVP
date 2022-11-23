@@ -20,8 +20,6 @@ export default class Opciones extends Component{
                             </View>
                         </View> */}
                         <img src={fotoagenda} alt="Italian Trulli"/>
-                    </div>
-                    <div class="col-sm">
                         <p>Poronga</p>
                     </div>
                 </div>

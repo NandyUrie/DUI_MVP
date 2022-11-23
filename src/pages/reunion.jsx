@@ -10,7 +10,7 @@ class Reunion extends Component {
         <div className='page'>
         <Cabecera />
         <NavBar />
-        <h2><center>Reunion</center></h2>
+        <h2>Reunión en curso</h2>
       </div>
       );
   }
