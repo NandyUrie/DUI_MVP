@@ -10,7 +10,7 @@ class RevisarEvento extends Component {
         <div className='page'>
           <Cabecera />
           <NavBar />
-          <h2><center>12 de diciembre</center></h2>
+          <h2><center>12 de Noviembre</center></h2>
           <div>
           <center>
           <table cellpadding={15}>

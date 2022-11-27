@@ -23,7 +23,7 @@ class Compromisos extends Component {
                   <th></th>
                 </tr>
                 <tr>
-                  <td >12 de diciembre</td>
+                  <td >12 de Noviembre</td>
                   <td>10:00 </td>
                   <td>hrs</td>
                 </tr>
