@@ -5,6 +5,7 @@ import HomePage from '../pages/home'
 import Actas from '../pages/actas'
 import HomeReuniones from '../pages/homeReuniones'
 import Agenda from '../pages/agenda'
+import AgendaFinal from '../pages/agendaFinal'
 import Compromisos from '../pages/compromisos'
 import CrearEvento from '../pages/crearEvento'
 import CrearReunion from '../pages/crearReunion'
@@ -23,6 +24,7 @@ const AppRouter = () => {
         <Route path='/actas' element={<Actas />} />
         <Route path='/homeReuniones' element={<HomeReuniones />} />
         <Route path='/agenda' element={<Agenda />} />
+        <Route path='/agendaFinal' element={<AgendaFinal />} />
         <Route path='/compromisos' element={<Compromisos />} />
         <Route path='/crearEvento' element={<CrearEvento />} />
         <Route path='/crearReunion' element={<CrearReunion />} />

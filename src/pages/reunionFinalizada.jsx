@@ -17,8 +17,8 @@ class ReunionFinalizada extends Component {
         <br></br>
         <body><center>Acta Generada</center></body>
         <Stack direction="row" justifyContent="center"  alignItems="center" spacing={2}>
-          <Button variant="contained" color="success">  Ver Acta </Button>
-          <Button variant="contained" color="success">  Salir </Button>
+          <a href='http://localhost:5050/actas'><Button variant="contained" color="success"  onClick='http://localhost:5050/actas'>  Ver Acta </Button></a>
+          <a href='http://localhost:5050/'><Button variant="contained" color="success"  onClick='http://localhost:5050/'>  Salir </Button></a>
         </Stack>
       </div>
       );

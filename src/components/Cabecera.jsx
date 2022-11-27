@@ -1,4 +1,5 @@
 import React, { Component} from 'react'
+
 import logo from '../assets/logo.png'
 
 export default class Cabecera extends Component{

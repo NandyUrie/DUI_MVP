@@ -1,7 +1,10 @@
 import React, { Component} from 'react'
+import Stack from '@mui/material/Stack';
 import Cabecera from '../components/Cabecera'
 
 import NavBar from '../components/nav_bar'
+
+import grabando from '../assets/rec.png'
 
 
 class Reunion extends Component {
@@ -10,7 +13,10 @@ class Reunion extends Component {
         <div className='page'>
         <Cabecera />
         <NavBar />
-        <h2>Reunión en curso</h2>
+        <Stack direction="row" alignItems="left" spacing={2}>
+          <h2>Reunión en curso</h2>
+          <img src={grabando} className='App-logo fotorec' alt='grabando' width="100" height="50"/>
+        </Stack>
       </div>
       );
   }
