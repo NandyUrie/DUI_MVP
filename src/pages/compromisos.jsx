@@ -5,6 +5,7 @@ import NavBar from '../components/nav_bar'
 import { Button } from '@mui/material'
 import flechablanca from '../assets/flechablanca.png'
 import flechanegra from '../assets/flechanegra.png'
+import icon_back_arrow from '../assets/icon_back_arrow.png'
 
 
 class Compromisos extends Component {
@@ -23,7 +24,7 @@ class Compromisos extends Component {
                   <th></th>
                 </tr>
                 <tr>
-                  <td >12 de Noviembre</td>
+                  <td >12 de diciembre</td>
                   <td>10:00 </td>
                   <td>hrs</td>
                 </tr>
@@ -83,6 +84,9 @@ class Compromisos extends Component {
         </table>
         <div align="right">
             <a href='http://localhost:5050/compromisos'><Button variant="contained" color="success"  onClick='http://localhost:5050/compromisos'> + Crear nuevo compromiso </Button></a>
+        </div>
+        <div align="left">
+            <a href='http://localhost:5050/revisarEvento'><button onClick='http://localhost:5050/revisarEvento'><img src={icon_back_arrow} width="15" height="15"></img> Volver </button></a>
         </div>
       </center>
       </div>

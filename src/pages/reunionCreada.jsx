@@ -1,13 +1,12 @@
-import React, { Component} from 'react'
+import React, { Component} from 'react';
 import Box from '@mui/material/Box'; // llenado
 import TextField from '@mui/material/TextField'; // llenado
 import Stack from '@mui/material/Stack';
-import { Button } from '@mui/material'
+import { Button } from '@mui/material';
 import Checkbox from '@mui/material/Checkbox';
 
-import Cabecera from '../components/Cabecera'
-
-import NavBar from '../components/nav_bar'
+import Cabecera from '../components/Cabecera';
+import NavBar from '../components/nav_bar';
 
 
 class ReunionCreada extends Component {

@@ -20,14 +20,14 @@ class CrearEvento extends Component {
           <tr>
             <Stack>
             <center><Box component="form" sx={{'& > :not(style)': { m: 1, width: '25ch' }, }} noValidate autoComplete="off">  {/* llenado */}
-            <TextField id="outlined-basic" label="Nombre de la reunión" variant="outlined" />   {/* llenado */}
+            <TextField id="outlined-basic" defaultValue="Scrum" label="Nombre de la reunión" variant="outlined" />   {/* llenado */}
             </Box> </center> {/* llenado */}
             </Stack>
           </tr>
           <tr>
             <Stack>
             <center><Box component="form" sx={{'& > :not(style)': { m: 1, width: '25ch' }, }} noValidate autoComplete="off">  {/* llenado */}
-            <TextField id="outlined-basic" label="Fecha - Dia/Mes/Año" variant="outlined" />   {/* llenado */}
+            <TextField id="outlined-basic" defaultValue="17/12/2022" label="Fecha - Dia/Mes/Año" variant="outlined" />   {/* llenado */}
             </Box> </center> {/* llenado */}
             </Stack>
           </tr>
@@ -41,7 +41,7 @@ class CrearEvento extends Component {
           <tr>
             <Stack>
             <center><Box component="form" sx={{'& > :not(style)': { m: 1, width: '25ch' }, }} noValidate autoComplete="off">  {/* llenado */}
-            <TextField id="outlined-basic" label="Horario" variant="outlined" />   {/* llenado */}
+            <TextField id="outlined-basic" defaultValue="10:00" label="Horario" labelcolor="000000" variant="outlined" />   {/* llenado */}
             </Box> </center> {/* llenado */}
             </Stack>
           </tr>

@@ -12,7 +12,7 @@ class Agenda extends Component {
         <div className='page'>
         <Cabecera />
         <NavBar />
-        <h2><center>Noviembre</center></h2>
+        <h2><center>Diciembre</center></h2>
         <br></br>
         <center>
           <table border={1} cellPadding={15}>

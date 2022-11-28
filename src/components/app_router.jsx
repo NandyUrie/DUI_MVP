@@ -8,6 +8,7 @@ import Agenda from '../pages/agenda'
 import AgendaFinal from '../pages/agendaFinal'
 import Compromisos from '../pages/compromisos'
 import CrearEvento from '../pages/crearEvento'
+import CrearEventoFinal from '../pages/crearEventoFinal'
 import CrearReunion from '../pages/crearReunion'
 import Participantes from '../pages/participantes'
 import Reunion from '../pages/reunion'
@@ -28,6 +29,7 @@ const AppRouter = () => {
         <Route path='/agendaFinal' element={<AgendaFinal />} />
         <Route path='/compromisos' element={<Compromisos />} />
         <Route path='/crearEvento' element={<CrearEvento />} />
+        <Route path='/crearEventoFinal' element={<CrearEventoFinal />} />
         <Route path='/crearReunion' element={<CrearReunion />} />
         <Route path='/participantes' element={<Participantes />} />
         <Route path='/reunion' element={<Reunion />} />
