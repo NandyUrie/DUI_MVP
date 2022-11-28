@@ -14,6 +14,7 @@ import Reunion from '../pages/reunion'
 import ReunionCreada from '../pages/reunionCreada'
 import ReunionFinalizada from '../pages/reunionFinalizada'
 import RevisarEvento from '../pages/revisarEvento'
+import Unirse from '../pages/unirseReunion'
 
 
 const AppRouter = () => {
@@ -33,6 +34,7 @@ const AppRouter = () => {
         <Route path='/reunionCreada' element={<ReunionCreada />} />
         <Route path='/reunionFinalizada' element={<ReunionFinalizada />} />
         <Route path='/revisarEvento' element={<RevisarEvento />} />
+        <Route path='/unirseReunion' element={<Unirse />} />
       </Routes>
     </BrowserRouter>
   )

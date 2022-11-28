@@ -19,7 +19,7 @@ export default class Opciones extends Component{
                     </a>    
                     </div>
                     <div>
-                    <a href="">
+                    <a href="http://localhost:5050/unirseReunion">
                         <Stack direction="row" justifyContent="center"  alignItems="center" spacing={2}>
                             <img src={fotomas} alt="fotomas"/>
                             <p>Unirse a una reunión</p>

@@ -17,6 +17,9 @@ class Reunion extends Component {
           <h2>Reunión en curso</h2>
           <img src={grabando} className='App-logo fotorec' alt='grabando' width="100" height="50"/>
         </Stack>
+        <div class = 'fondonegro' >
+          <p>Hola</p>
+        </div>
       </div>
       );
   }

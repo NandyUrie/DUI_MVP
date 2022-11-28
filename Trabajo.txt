@@ -1,0 +1,4 @@
+Hola persona weona X random:
+
+Nuestra aplicación trata sobre una app web que utlizará el jefe del departamento para facilitar la revisión de sus trabajadores.
+Para ello, 
