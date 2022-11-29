@@ -4,6 +4,6 @@ Nuestra aplicación trata sobre una app web que utlizará el jefe de un departam
 reuniones en el día a través de una agenda de reuniones.
 Para ello, nosotros como desarrolladores necesitamos que tú cumplas con tres objetivos:
 
-1. Crear una reunión y revisar el acta generada.
+1. Crear una reunión, ingresar a ella y descargar el acta generada al finalizar la reunión.
 2. Revisar en la reunión agendada el día 12 de Diciembre la lista de compromisos por equipo. 
 3. Agendar una nueva reunión para el día 17 de Diciembre del 2022 con dos integrantes cualquiera y a las 10:00.

@@ -61,7 +61,7 @@ class Reunion extends Component {
             <img src={microfono} className='App-logo ' alt='microfono' hspace='50' width="50" height="80"/>
             <img src={chat} className='App-logo ' alt='chat'  width="80" height="80"/>
             <img src={compartirPantalla} className='App-logo ' alt='compartirPantalla'  width="100" height="70"/>
-            <a href='http://localhost:5050/reunionFinalizada'><Button variant="contained" color="success" onClick='http://localhost:5050/reunionFinalizada' size="large">  Salir </Button></a>
+            <a href='http://localhost:5050/reunionFinalizada'><Button variant="contained" color="success" onClick='http://localhost:5050/reunionFinalizada' size="large">  Finalizar Reunión </Button></a>
         </Stack>
       </div>
       );
