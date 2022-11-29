@@ -32,37 +32,37 @@ class Participantes extends Component {
           <p>12 de diciembre 2022</p>
           <table border="1">
             <tr>
-              <td><Checkbox defaultChecked color="success" /></td>
+              <td><Checkbox color="success" /></td>
               <td><img src={icono1} width="85" height="85"></img></td>
               <td>Tú (Iván Castillo)</td>
             </tr>
             <tr>
-              <td><Checkbox defaultChecked color="success" /></td>
+              <td><Checkbox color="success" /></td>
               <td><img src={icono7} width="85" height="85"></img></td>
               <td>Valentina Aróstica</td>
             </tr>
             <tr>
-              <td><Checkbox defaultChecked color="success" /></td>
+              <td><Checkbox color="success" /></td>
               <td><img src={icono5} width="85" height="85"></img></td>
               <td>Diego Rosales</td>
             </tr>
             <tr>
-              <td><Checkbox defaultChecked color="success" /></td>
+              <td><Checkbox color="success" /></td>
               <td><img src={icono10} width="92" height="85"></img></td>
               <td>Fabián Saso</td>
             </tr>
             <tr>
-              <td><Checkbox defaultChecked color="success" /></td>
+              <td><Checkbox color="success" /></td>
               <td><img src={icono3} width="85" height="85"></img></td>
               <td>Nandy Troncoso</td>
             </tr>
             <tr>
-              <td><Checkbox defaultChecked color="success" /></td>
+              <td><Checkbox color="success" /></td>
               <td><img src={icono6} width="85" height="85"></img></td>
               <td>Adrián Barrios</td>
             </tr>
             <tr>
-              <td><Checkbox defaultChecked color="success" /></td>
+              <td><Checkbox  color="success" /></td>
               <td><img src={icono12} width="85" height="85"></img></td>
               <td>Tolueno Zapata</td>
             </tr>
@@ -84,10 +84,10 @@ class Participantes extends Component {
           </table>
         </center>
         <div align="right">
-            <a href='http://localhost:5050/revisarEvento'><Button variant="contained" color="success" onClick='http://localhost:5050/revisarEvento'> Guardar </Button></a>
+            <a href='http://localhost:5050/crearEventoFinal'><Button variant="contained" color="success" onClick='http://localhost:5050/crearEventoFinal'> Guardar </Button></a>
         </div>
         <div align="left">
-            <a href='http://localhost:5050/revisarEvento'><button onClick='http://localhost:5050/revisarEvento'><img src={icon_back_arrow} width="15" height="15"></img> Volver </button></a>
+            <a href='http://localhost:5050/crearEventoFinal'><button onClick='http://localhost:5050/crearEventoFinal'><img src={icon_back_arrow} width="15" height="15"></img> Volver </button></a>
         </div>
 
       </div>

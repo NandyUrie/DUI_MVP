@@ -46,7 +46,7 @@ class CrearEvento extends Component {
             </Stack>
           </tr>
           <Stack>
-          <a href='http://localhost:5050/participantes'><Button variant="contained" color="success"  onClick='http://localhost:5050/participantes'>  Participantes </Button></a>
+          <a href='http://localhost:5050/participantesNuevo'><Button variant="contained" color="success"  onClick='http://localhost:5050/participantesNuevo'>  Participantes </Button></a>
           <td>Participantes: 2</td>
           </Stack>
           <Stack direction="row" justifyContent="center"  alignItems="center" spacing={5}>

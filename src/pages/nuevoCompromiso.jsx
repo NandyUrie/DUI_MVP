@@ -15,16 +15,16 @@ class CrearReunion extends Component {
         <div className='page'>
         <Cabecera />
         <NavBar />
-        <h2><center>Crear Reunión</center></h2>
+        <h2><center>Nuevo Compromiso</center></h2>
         <center><Box component="form" sx={{'& > :not(style)': { m: 1, width: '25ch' }, }} noValidate autoComplete="off">  {/* llenado */}
-          <TextField id="outlined-basic" label="Nombre de la reunión" variant="outlined" />   {/* llenado */}
+          <TextField id="outlined-basic" label="Compromiso" variant="outlined" />   {/* llenado */}
         </Box> </center> {/* llenado */}
         <center><Box component="form" sx={{'& > :not(style)': { m: 1, width: '25ch' }, }} noValidate autoComplete="off">  
-          <TextField id="outlined-basic" label="Contraseña de ingreso (opcional)" variant="outlined" /> 
+          <TextField id="outlined-basic" label="Adjudicado a" variant="outlined" /> 
         </Box> </center> 
         <Stack direction="row" justifyContent="center"  alignItems="center" spacing={2}>
-          <a href='http://localhost:5050/reunionCreada'><Button variant="contained" color="success"  onClick='http://localhost:5050/reunionCreada'>  Crear </Button></a>
-          <a href='http://localhost:5050/homeReuniones'><Button variant="contained" color="success"  onClick='http://localhost:5050/homeReuniones'>  Cancelar </Button></a>
+          <a href='http://localhost:5050/compromisos'><Button variant="contained" color="success"  onClick='http://localhost:5050/compromisos'>  Agregar </Button></a>
+          <a href='http://localhost:5050/compromisos'><Button variant="contained" color="success"  onClick='http://localhost:5050/compromisos'>  Cancelar </Button></a>
         </Stack>
       </div>
       );

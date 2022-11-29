@@ -83,7 +83,7 @@ class Agenda extends Component {
       </table>
     </center>
       <Stack direction="row" justifyContent="center"  alignItems="center" spacing={2}>
-        <a href='http://localhost:5050/agendaFinal'><Button variant="contained" color="success"  onClick='http://localhost:5050/agendaFinal'>  Agendar Reunión </Button></a>
+        <a href='http://localhost:5050/crearEvento'><Button variant="contained" color="success"  onClick='http://localhost:5050/crearEvento'>  Agendar Reunión </Button></a>
         </Stack>
     </div>
     );

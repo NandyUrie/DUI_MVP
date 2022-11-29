@@ -83,7 +83,7 @@ class Compromisos extends Component {
           </tbody>
         </table>
         <div align="right">
-            <a href='http://localhost:5050/compromisos'><Button variant="contained" color="success"  onClick='http://localhost:5050/compromisos'> + Crear nuevo compromiso </Button></a>
+            <a href='http://localhost:5050/nuevoCompromiso'><Button variant="contained" color="success"  onClick='http://localhost:5050/nuevoCompromiso'> + Crear nuevo compromiso </Button></a>
         </div>
         <div align="left">
             <a href='http://localhost:5050/revisarEvento'><button onClick='http://localhost:5050/revisarEvento'><img src={icon_back_arrow} width="15" height="15"></img> Volver </button></a>
